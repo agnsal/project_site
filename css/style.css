@@ -15,7 +15,10 @@ body{
 h1.bigtitle {font-size:5.7em;font-weight:normal;}
 
 
-
+/*Gestione del carousello :P */
+.first-slide, .second-slide, .third-slide{
+    object-fit: cover;
+}
 
 /* immagine preview mini app */
 img.img-view {
