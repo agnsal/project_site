@@ -42,3 +42,41 @@ colore3 #2F74A9
 colore4 #E6F2F9
 
 */
+
+
+/* colori navbar */
+.navbar {
+    background-color: #2F74A9 !important;
+    border: 0 !important;
+}
+
+.active-navbar {
+    color: #2F74A9 !important;
+    background-color: #E6F2F9 !important;
+}
+
+.nav-item {
+    color: #ffffff !important;
+}
+
+.drop-nav-item {
+    color: #2f74a9 !important;
+}
+
+a.active-drop {
+    background-color: #2f74a9 !important;
+    color: #ffffff !important;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bolder;
+}
+
+.navbar-toggle {
+    background: #fff;
+}
+
+ul.dropdown-menu {
+    background-color: #e6f2f9 !important;
+}
