@@ -6,11 +6,23 @@ body{
 	margin: 0 !important;
 }
 
+#primo:hover, #secondo:hover, #terzo:hover{
+    color: #2F74A9 !important;
+    background-color: #E6F2F9 !important;
+}
+
 /* gestione immagini topbar */
 .separate-bottom {
 
     margin-bottom: 2em;
 }
+ #logoicon{
+     height: 50px;
+     width: 50px;
+     margin: 0;
+     padding: 0;
+     background-color: transparent;
+ }
 
 h1.bigtitle {font-size:5.7em;font-weight:normal;}
 
