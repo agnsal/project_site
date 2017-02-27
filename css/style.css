@@ -209,11 +209,27 @@ div.carousel-textbox {
 
 #top-title-bar {
     width: 100%;
-    background-image: url("../images/stud_happy.jpeg");
+    /*background-image: url("../images/stud_happy.jpeg");*/
     color: #ffffff;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+#top-title-bar.chi-siamo {
+    background-image: url("../images/stud_happy.jpeg");
+}
+
+#top-title-bar.dicono-di-noi {
+    background-image: url("../images/carousel/stud.jpg");
+}
+
+#top-title-bar.suite {
+    background-image: url("../images/carousel/Students.jpg");
+}
+
+#top-title-bar.ubi {
+    background-image: url("../images/carousel/adm.jpg");
 }
