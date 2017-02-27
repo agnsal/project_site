@@ -113,6 +113,11 @@ div.panel-person {
     box-shadow: 1px 1px 1px #ddd;
 }
 
+#download-call-btn {
+    font-size: 3em;
+    font-weight: bold;
+}
+
 
 /*FOOTER*/
 
