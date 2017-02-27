@@ -43,11 +43,18 @@ img.top-image {
     margin-bottom: 4em !important;
 }
 
+/*
 iframe{
     height: 36vw;
     width: 64vw;
     margin-left: 18vw;
 
+}
+*/
+
+#video-app {
+    width: 100vw;
+    height: 56.25vw;
 }
 
 /*
@@ -142,3 +149,6 @@ div.panel-person {
 }
  
  
+div.narrow-carousel {
+    margin-bottom: 2em;
+}
