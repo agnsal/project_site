@@ -39,8 +39,8 @@ and open the template in the editor.
     padding: 5px;
     font-size: 17px;
     border-radius: 50%;
-    background-color: #a0db8e;
-    color: #fff;
+    background-color: transparent;
+    color: #4c4c4c;
 }
 
 .team a:hover i{
