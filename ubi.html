@@ -30,76 +30,93 @@ and open the template in the editor.
     
     
     <body>
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+
+
+    <nav class="navbar navbar-default navbar-static-top close-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="">
+                    <img src="images/logo.png" id="logoicon" class="navbar-brand"/>
                     <a class="navbar-brand" href="#">ErasmusTrip</a>
                 </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">Chi siamo</a></li>
-                        <li><a href="#contact">Contattaci</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Le nostre app <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Ubi</a></li>
-                                <li><a href="#">Eventa</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
             </div>
-        </nav>
-
-
-        
-
-<!-- START THE FEATURETTES -->
-<div class="container marketing">
-   
-
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a id="primo" class="nav-item hoverbutton" href="index.html">Home</a></li>
+                    <li><a id="secondo" class="nav-item hoverbutton" href="chisiamo.html">Chi siamo</a></li>
+                    <li><a id="terzo" class="nav-item hoverbutton" href="diconodinoi.html">Dicono di noi</a></li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle active-navbar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Le nostre app <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="nav-item drop-nav-item" href="./our_apps.html">La nostra suite</a></li>
+                            <li><a class="nav-item drop-nav-item active-drop" href="./ubi.html">Ubi</a></li>
+                            <li><a class="nav-item drop-nav-item" href="#">Eventa</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block img-view" src="./images/views/ubi2.png" alt="View di Ubi">        </div>
-      </div>
+    </nav>
 
-      <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+    <div id="top-title-bar" class="separate-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="wow fadeInUp">Ubi</h1>
+                    <p class="wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, amet numquam cupiditate reiciendis delectus ipsum. Consequatur, officiis!</p>
+
+                </div>
+
+            </div>
         </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block img-view" src="./images/views/ubi1kenobi.png" alt="View di Ubi">
-        </div>
-      </div>
+    </div>
 
-      <hr class="featurette-divider">
+    <!-- START THE FEATURETTES -->
+    <div class="container marketing">
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Ubi: <span class="text-muted">cerca un ateneo fatto apposta per te!</span></h2>
+              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive center-block img-view" src="./images/views/ubi2.png" alt="View di Ubi">        </div>
+          </div>
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block img-view" src="./images/views/ubi3.png" alt="View di Ubi">        </div>
-      </div>
-      <button id="download-call-btn" class="btn btn-info col-md-6">Download ErasmusTrip</button>
+          <hr class="featurette-divider">
 
-</div>
+          <div class="row featurette">
+            <div class="col-md-7 col-md-push-5">
+                <h2 class="featurette-heading">Choose: <span class="text-muted">la scelta è ampia!</span></h2>
+              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5 col-md-pull-7">
+              <img class="featurette-image img-responsive center-block img-view" src="./images/views/ubi3.png" alt="View di Ubi">
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading">Like it: <span class="text-muted">aggiungi un ateneo ai tuoi preferiti</span></h2>
+                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            </div>
+            <div class="col-md-5">
+                <img class="featurette-image img-responsive center-block img-view" src="./images/views/ubi1kenobi.png" alt="View di Ubi">        </div>
+          </div>
+
+        <hr class="featurette-divider">
+
+            <button id="download-call-btn" class="btn btn-info col-md-offset-4 col-md-4">Download it!!!</button>
+
+    </div>
       <!-- /END THE FEATURETTES -->
       
     

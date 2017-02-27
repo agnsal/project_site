@@ -44,18 +44,22 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">ErasmusTrip</a>
+                    <div class="">
+                        <img src="images/logo.png" id="logoicon" class="navbar-brand"/>
+                        <a class="navbar-brand" href="#">ErasmusTrip</a>
+                    </div>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">Chi siamo</a></li>
-                        <li><a href="#contact">Contattaci</a></li>
+                        <li><a id="primo" class="nav-item hoverbutton" href="index.html">Home</a></li>
+                        <li class="active"><a id="secondo" class="nav-item hoverbutton active-btn" href="chisiamo.html">Chi siamo</a></li>
+                        <li><a id="terzo" class="nav-item hoverbutton" href="diconodinoi.html">Dicono di noi</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Le nostre app <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle nav-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Le nostre app <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Ubi</a></li>
-                                <li><a href="#">Eventa</a></li>
+                                <li><a class="nav-item drop-nav-item" href="./our_apps.html">La nostra suite</a></li>
+                                <li><a class="nav-item drop-nav-item" href="./ubi.html">Ubi</a></li>
+                                <li><a class="nav-item drop-nav-item" href="#">Eventa</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -63,76 +67,134 @@
             </div>
         </nav>
         <!-- end navbar -->
-        
-        
-        
-        <!--Team-->
+
+
+
+        <div id="top-title-bar" class="separate-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="wow fadeInUp">Conosci il team</h1>
+                        <p class="wow fadeInUp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, amet numquam cupiditate reiciendis delectus ipsum. Consequatur, officiis!</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
         <div id="team" class="team">
             <div class="container">
                 <div class="row">
-                    <h2 class="wow fadeInUp">Meet our team</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, obcaecati unde eveniet quisquam nobis harum a cupiditate inventore quo ipsum. Sint, culpa, amet numquam cupiditate reiciendis delectus ipsum. Consequatur, officiis!</p>
+                    <!--
+                    <h1 class="wow fadeInUp">Conosci il team!</h1>
+                    <p class="wow fadeInUp text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, amet numquam cupiditate reiciendis delectus ipsum. Consequatur, officiis!</p>
+
+
+                    <hr class="featurette-divider" />
+
+                    -->
 
                     <div class="col-md-4 wow fadeInLeft" data-wow-delay="2s">
-                        <img src="images/Profile1.jpg" class="img-circle" alt="">
-                        <h4>Gioacchino Castorio</h4>
-                        <b>Anxiety Maker</b>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, maxime, non expedita aut quibusdam sunt. Totam, unde illum eaque odio omnis natus doloribus! Cum, doloribus ipsum quidem aliquid at necessitatibus.</p>
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        <div class="panel panel-default panel-person">
+                            <img src="images/Profile1.jpg" class="img-circle box-adapt " alt="">
+                            <h4>Gioacchino Castorio</h4>
+                            <b>Anxiety Maker</b>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
                     </div>
 
                     <div class="col-md-4 wow fadeInLeft" data-wow-delay="1.6s">
-                        <img src="images/Profile1.jpg" class="img-circle" alt="">
-                        <h4>Carlo Centofanti</h4>
-                        <b>Main Influenced</b>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, maxime, non expedita aut quibusdam sunt. Totam, unde illum eaque odio omnis natus doloribus! Cum, doloribus ipsum quidem aliquid at necessitatibus.</p>
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter hidden" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest hidden" aria-hidden="true"></i></a>
+                        <div class="panel panel-default panel-person">
+                            <img src="images/Profile1.jpg" class="img-circle box-adapt " alt="">
+                            <h4>Gioacchino Castorio</h4>
+                            <b>Anxiety Maker</b>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
                     </div>
 
                     <div class="col-md-4 wow fadeInLeft" data-wow-delay="1.2s">
-                        <img src="images/Profile1.jpg" class="img-circle" alt="">
-                        <h4>Angelo Damiani</h4>
-                        <b>Pixel Alligner</b>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, maxime, non expedita aut quibusdam sunt. Totam, unde illum eaque odio omnis natus doloribus! Cum, doloribus ipsum quidem aliquid at necessitatibus.</p>
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest hidden" aria-hidden="true"></i></a>
+                        <div class="panel panel-default panel-person">
+                            <img src="images/Profile1.jpg" class="img-circle box-adapt " alt="">
+                            <h4>Gioacchino Castorio</h4>
+                            <b>Anxiety Maker</b>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
                     </div>
 
                     <div class="col-md-offset-2 col-md-4 wow fadeInLeft" data-wow-delay="0.8s">
-                        <img src="images/Profile1.jpg" class="img-circle" alt="">
-                        <h4>Agnese Salutari</h4>
-                        <b>Main Speacker</b>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, maxime, non expedita aut quibusdam sunt. Totam, unde illum eaque odio omnis natus doloribus! Cum, doloribus ipsum quidem aliquid at necessitatibus.</p>
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin hidden" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest hidden" aria-hidden="true"></i></a>
+                        <div class="panel panel-default panel-person">
+                            <img src="images/Profile1.jpg" class="img-circle box-adapt " alt="">
+                            <h4>Gioacchino Castorio</h4>
+                            <b>Anxiety Maker</b>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
                     </div>
                     
                     <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.8s">
-                        <img src="images/Profile1.jpg" class="img-circle" alt="">
-                        <h4>Valeria D'Agostino</h4>
-                        <b>Designated Moderator</b>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, maxime, non expedita aut quibusdam sunt. Totam, unde illum eaque odio omnis natus doloribus! Cum, doloribus ipsum quidem aliquid at necessitatibus.</p>
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-pinterest hidden" aria-hidden="true"></i></a>
+                        <div class="panel panel-default panel-person">
+                            <img src="images/Profile1.jpg" class="img-circle box-adapt " alt="">
+                            <h4>Gioacchino Castorio</h4>
+                            <b>Anxiety Maker</b>
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
 <!--Fine Team-->
+
+
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4">
+                        <h3 class="wow fadeInUp">50 Sfumature di...</h3>
+                        <p><i class="fa fa-home" aria-hidden="true"></i> Via Vetoio 1 L'Aquila, 67100</p>
+                        <p><i class="fa fa-envelope" aria-hidden="true"></i> aqerasmustrip@gmail.com</p>
+                        <p><i class="fa fa-phone" aria-hidden="true"></i> +39 2222222222</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h3 class="wow fadeInUp">About</h3>
+                        <p> Chi siamo</p>
+                        <p> Contattaci</p>
+                        <p> <a href="sitemap.html">Sitemap</a></p>
+                    </div>
+                    <div class="social col-lg-4 col-md-4">
+                        <h3 class="wow fadeInUp">Rimani in contatto</h3>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        <i class="fa fa-pinterest" aria-hidden="true"></i>
+                        <i class="fa fa-youtube" aria-hidden="true"></i>
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                        <br>
+                        <input type="email" placeholder="Newsletter"><button class="btn btn-success">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 
 

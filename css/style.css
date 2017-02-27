@@ -24,7 +24,7 @@ body{
      background-color: transparent;
  }
 
-h1.bigtitle {font-size:5.7em;font-weight:normal;}
+h1.bigtitle {font-size:3em;font-weight:normal;}
 
 
 /*Gestione del carousello :P */
@@ -98,6 +98,15 @@ a.active-drop {
     background: #fff;
 }
 
+.active-btn, .active {
+    color: #2f74a9 !important;
+    background-color: #E6F2F9 !important;
+}
+
+.text-blue {
+    color: #2f74a9 !important;
+}
+
 ul.dropdown-menu {
     background-color: #e6f2f9 !important;
 }
@@ -116,6 +125,7 @@ div.panel-person {
 #download-call-btn {
     font-size: 3em;
     font-weight: bold;
+    background-color: #2f74a9 !important;
 }
 
 
@@ -156,4 +166,54 @@ div.panel-person {
  
 div.narrow-carousel {
     margin-bottom: 2em;
+}
+
+
+/* separatori */
+
+.featurette-divider {
+    color: #2f74a9 !important;
+    background-color: #2f74a9 !important;
+}
+
+.featurette-divider.devider-narrow {
+
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+/*captions*/
+h1.wow {
+    font-size: 5em !important;
+}
+
+footer a {
+
+    color: #cccccc;
+
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* carousel *
+ */
+
+div.carousel-textbox {
+    padding: 1em;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+#top-title-bar {
+    width: 100%;
+    background-image: url("../images/stud_happy.jpeg");
+    color: #ffffff;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
