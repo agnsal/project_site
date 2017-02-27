@@ -55,7 +55,6 @@ colore1 #509FE1
 colore2 #C4CFD5
 colore3 #2F74A9
 colore4 #E6F2F9
-mannaggia la palette
 */
 
 
@@ -106,3 +105,40 @@ div.panel-person {
     border-color: #dddddd;
     box-shadow: 1px 1px 1px #ddd;
 }
+
+
+/*FOOTER*/
+
+.footer{
+    padding: 30px;
+    margin-top: 10em;
+    color: #cccccc;
+    background-color: #222222; /*same of navbar as usually*/
+}
+
+.footer .social i{
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc; /* Same color of icons themselves */
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.footer input {
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    border: none;
+    background-color: #cccccc;
+    color: #000;
+}
+
+.footer .btn{
+    padding: 10px 5px 10px;
+    margin: -3px 0 0 5px;
+}
+ 
+ 
