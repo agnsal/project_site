@@ -83,3 +83,14 @@ a.active-drop {
 ul.dropdown-menu {
     background-color: #e6f2f9 !important;
 }
+
+img.box-adapt {
+    margin-top: 2em !important;
+    box-shadow: 1px 5px 5px #000;
+}
+
+div.panel-person {
+    padding-bottom: 2em !important;
+    border-color: #dddddd;
+    box-shadow: 1px 1px 1px #ddd;
+}
