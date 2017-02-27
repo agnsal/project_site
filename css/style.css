@@ -5,3 +5,9 @@ body{
 .close-navbar{
 	margin: 0 !important;
 }
+
+/* gestione immagini topbar */
+.separate-bottom {
+
+    margin-bottom: 2em;
+}
