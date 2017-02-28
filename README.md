@@ -1,20 +1,20 @@
 # Mini sito per il progetto ErasmusTrip
 
-Il team vuole sviluppare un sito vetrina responsive per il progetto ErasmusTrip, a sua volta sviluppato nell'ambito del corso "_Progettazione di sistemi interattivi_" A.A. 2016/2017 delle prof.sse Laura Tarantino e Tania Di Mascio. 
+Il team vuole sviluppare un sito vetrina responsive per il progetto ErasmusTrip, a sua volta sviluppato nell'ambito del corso "_Progettazione di Sistemi Interattivi_" A.A. 2016/2017 delle prof.sse Laura Tarantino e Tania Di Mascio. 
 
 ## Generalità
 
 ### Obiettivi generali del nuovo sito
 
-Questo nuovo sito ha molteplici scopi:
-* far conoscere l’app ErasmusTrip, che si appresta ad entrare in commercio, nonch é promuovere la sua diffusione;
-* fornire informazioni utili agli utenti riguardo tale sistema;
-* convincere gli utenti, che entrano nel sito, ad effettuare il download e l’installazione della suite sul proprio smartphone.
+Questo sito ha molteplici scopi:
+* Far conoscere l’app ErasmusTrip, ipotizzando che si stia apprestando ad entrare in commercio, nonché promuovere la sua diffusione;
+* Fornire informazioni utili agli utenti riguardo tale sistema;
+* Convincere gli utenti che entrano nel sito ad effettuare il download e l’installazione della suite sul proprio smartphone.
 
 ### Utenti
 
-Gli utenti target di questo sito coincideranno con gli utenti del sistema ErasmusTrip; in particolare, tutti e soli gli utenti target sono studenti universitari che necessitano di organizzare i vari aspetti della loro esperienza Erasmus, in ogni sua fase:
-* Before User: utente che si appresta a iniziare (o è indeciso se iniziare) la propria esperienza Erasmus;
+Gli utenti target di questo sito coincidono con gli utenti del sistema ErasmusTrip; in particolare, tutti e soli gli utenti target sono studenti universitari che necessitano di organizzare i vari aspetti della loro esperienza Erasmus, in ogni sua fase:
+* Before User: utente che si appresta a iniziare la propria esperienza Erasmus;
 *  During User: utente che è già in Erasmus e vuole organizzare la sua vita in loco;
 *  After User: utente che sta per tornare in Patria, avendo completato la propria esperienza Erasmus.
 
@@ -33,8 +33,8 @@ Il sito sarà strutturato secondo il seguente schema gerarchico.
 
 * homepage
     * Che cosa offriamo:
-        * overview sul progetto
-        * overview sulle mini app
+        * Overview sul progetto
+        * Overview sulle mini app
         * Iscrizione alla mailing list
         * Download dell’app
         * Testimonianze degli utenti
@@ -56,17 +56,17 @@ Ogni pagina presenterà un footer con:
 * Info "azienda"
 
 #### Navigazione
-* Il sito dovra` prevedere una struttura di navigazione globale, accessibile da ogni pagina, dalla quale siano sempre raggiungibili le pagine di primo livello corri* spondenti alle diverse sezioni del sito, e una navigazione locale, che permetta la navigazione all’interno di ogni singola sezione;
+* Il sito dovrà prevedere una struttura di navigazione globale, accessibile da ogni pagina, dalla quale siano sempre raggiungibili le pagine di primo livello corrispondenti alle diverse sezioni del sito, e una navigazione locale, che permetta la navigazione all’interno di ogni singola sezione;
 * Navigazione globale e navigazione locale dovranno sempre essere nella stessa posizione in tutte le pagine;
-* La navigazione globale dovr`a essere disposta orizzontalmente (e in un burger menu in caso di dispositivi "small").
+* La navigazione globale dovrà essere disposta orizzontalmente (e in un burger menu in caso di dispositivi con schermo di piccole dimensioni).
 
 ### Requisiti di comunicazione
 
 #### Identità di marca, tono e stile della comunicazione
-Il sito presenterà il logo del sistema, costituito da un puzzle colorato su cui è presente il nome del sistema: si è voluto stressare il parallelismo tra i pezzi che si giustappongono e le mini*app che costituiranno la suite ErasmusTrip, perfettamente integrata.
+Il sito presenterà il logo del sistema, costituito da un puzzle colorato affiancato dal nome del sistema: si è voluto stressare il parallelismo tra i pezzi che si giustappongono e le mini app che costituiranno la suite ErasmusTrip, perfettamente integrata.
 
-Verrà riutilizzato il motto che il team ha imposto all’intero progetto, ossia ”I’ll shape your Erasmus experience”. Verrà inserito all’interno della Homepage del sito, essendo questo lo slogan a cui gli utenti dovranno immediatamente associare l’idea di Erasmus (il team ha intenzione di puntare ud una di↵usione capillare per il sistema, essendo unico nel suo genere).
-Il fatto che l’utenza è costituita esclusivamente da studenti, quindi persone giovani, e che statisticamente l’utenza è poco disposta a prestare grande attenzione alla lettura di testi lunghi e/o ampollosi, sarà utilizzato uno stile di comunicazione leggero, asciutto e di facile comprensione. Per quanto riguarda lo stile ed il tono della comunicazione, il team prenderà ad esempio il sito della Apple.
+Verrà riutilizzato il motto che il team ha imposto all’intero progetto, ossia ”I’ll shape your Erasmus experience”. Esso verrà inserito all’interno della Homepage del sito, essendo questo lo slogan a cui gli utenti dovranno immediatamente associare l’idea di Erasmus (il team ha intenzione di puntare ud una diffusione capillare per il sistema, essendo unico nel suo genere).
+Il fatto che l’utenza è costituita esclusivamente da studenti, quindi persone giovani, e che statisticamente l’utenza è poco disposta a prestare grande attenzione alla lettura di testi lunghi e/o ampollosi, sarà utilizzato uno stile di comunicazione leggero, asciutto e di facile comprensione. Per quanto riguarda lo stile ed il tono della comunicazione, il team prenderà come esempio il sito della Apple.
 
 #### Grafica e multimedialità
 Il sito deve rispettare le specifiche del Responsive Web Design ed è sviluppato tenendo conto delle diverse dimensioni e risoluzioni degli schermi dei dispositivi fissi e mobile; in particolare, ad ogni dispositivo sarà associato il corrispettivo breakpoint:
@@ -75,32 +75,33 @@ Il sito deve rispettare le specifiche del Responsive Web Design ed è sviluppato
 * Tablet portrait: >= 768px;
 * Desktop: >= 1224px.
 
-Si terra` conto di tali breakpoint sia per le immagini che per eventuali video (tutti fluidi). Nella fattispecie, questi ultimi saranno in formato YouTube-embedded per minimizzare i tempi di risposta del server host.
+Si terrà conto di tali breakpoint sia per le immagini che per eventuali video (tutti fluidi). Nella fattispecie, questi ultimi saranno in formato YouTube-embedded per minimizzare i tempi di risposta del server host.
 
 Per quanto concerne la palette di colori utilizzata per il sito, il team utilizzerà un set di colori coerente con quello della suite ErasmusTrip e con quello del logo scelto.
 
 #### Lingua e localizzazione
 
-Tutti e soli gli utenti target del sito che si vuole progettare, almeno in concomitanza con la prima versione di ErasmusTrip, saranno studenti italiani. Tuttavia, essendo l’inglese la lingua principalmente utilizzata nei contesti extranazionale, il team non trover`a vincoli ad utilizzarla nel sito (per quanto in minima parte).
+Tutti e soli gli utenti target del sito che si vuole progettare, almeno in concomitanza con la prima versione di ErasmusTrip, saranno studenti italiani. Tuttavia, essendo l’inglese la lingua principalmente utilizzata nei contesti internazionali, il team non si impone vincoli nell'utilizzarla nel sito (per quanto in minima parte).
 
 #### Requisiti di contenuto
 
-???
+* Headline: _I'll shape your Erasmus experience!_
+* Sub-headline: _Quando vai in Erasmus, hai un compagno su cui contare_
 
 ### Requisiti di Accessibilità
 
 #### Prestazioni
 
-Per motivi legati alla Search Engine Optimization, sarà necessario minimizzare il ”peso” delle pagine, in particolare la Homepage. In particolare si presterà attenzione a:
-* le immagini devono essere opportunamente compresse in modalità lossless per non perdere in qualità (preferibilmente JPEG e PGN);
-* i video saranno Youtube*embedded, per favorire il caricamento asincrono degli stessi.
+Per motivi legati alla Search Engine Optimization, sarà necessario minimizzare il ”peso” delle pagine, in particolare la Homepage. Nel dettaglio:
+* Le immagini devono essere opportunamente compresse in modalità lossless per non perdere in qualità (preferibilmente JPEG e PGN);
+* Gli eventuali video saranno Youtube embedded, per favorire il caricamento asincrono degli stessi.
 
 #### Reperibilità
 
-Il nome scelto per il dominio è  _www.erasmustrip.com_. Tenendo conto della mappa di navigazione del sito saranno stabiliti i seguenti path:
-* per la pagina ”Le mini App”: /apps/
-* per la singola pagina di ogni mini app: /apps/ < nomeapp > • per la pagina ”Dicono di noi”: /opinions/
-* per la pagina ”Contatti”: /contacts/
+Il nome scelto per il dominio è  _www.erasmustrip.example_. Tenendo conto della mappa di navigazione del sito saranno stabiliti i seguenti path:
+* Per la pagina ”Le mini App”: /apps/
+* Per la singola pagina di ogni mini app: /apps/ < nomeapp > • per la pagina ”Dicono di noi”: /opinions/
+* Per la pagina ”Contatti”: /contacts/
 
 Puntiamo ad un alto ranking nelle SERP dei motori di ricerca Google, Yahoo e Bing, mediante l’ottimizzazione SEO. In particolare si utilizzeranno le seguenti parole chiave:
 
