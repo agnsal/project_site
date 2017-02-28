@@ -97,7 +97,7 @@ Per motivi legati alla Search Engine Optimization, sarà necessario minimizzare 
 
 #### Reperibilità
 
-Il nome scelto per il dominio è  _www.erasmustrip.com_. Tenendo conto della mappa di navigazione del sito saranno stabiliti i seguenti path:
+Il nome scelto per il dominio è  _www.erasmustrip.example_. Tenendo conto della mappa di navigazione del sito saranno stabiliti i seguenti path:
 * Per la pagina ”Le mini App”: /apps/
 * Per la singola pagina di ogni mini app: /apps/ < nomeapp > • per la pagina ”Dicono di noi”: /opinions/
 * Per la pagina ”Contatti”: /contacts/
