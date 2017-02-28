@@ -1,3 +1,10 @@
+/*
+colore1 #509FE1
+colore2 #C4CFD5
+colore3 #2F74A9
+colore4 #E6F2F9
+*/
+
 body{
 	padding: 0 !important;
 	
@@ -25,6 +32,10 @@ body{
  }
 
 h1.bigtitle {font-size:3em;font-weight:normal;}
+
+#tendina-nav:focus{ /*TO DO*/
+    background-color: #E6F2F9 !important; 
+}
 
 
 /*Gestione del carousello :P */
@@ -118,8 +129,9 @@ img.box-adapt {
 
 div.panel-person {
     padding-bottom: 2em !important;
-    border-color: #dddddd;
-    box-shadow: 1px 1px 1px #ddd;
+    border-color: #2F74A9;
+    /*box-shadow: 1px 1px 1px #2F74A9;*/
+    background-color: #ddd !important;
 }
 
 #download-call-btn {
@@ -149,10 +161,16 @@ div.panel-person {
     margin-right: 5px;
 }
 
+.footer .social i:hover{
+    background-color: white;
+    color: #222222;
+}
+
 .footer input {
     height: 40px;
     width: 160px;
     padding: 5px;
+    margin-bottom: 1em;
     border: none;
     background-color: #cccccc;
     color: #000;
@@ -161,6 +179,14 @@ div.panel-person {
 .footer .btn{
     padding: 10px 5px 10px;
     margin: -3px 0 0 5px;
+}
+
+.footer button {
+    background-color: #5383d3 !important;
+    font-weight: bold !important;
+}
+.footer button:hover {
+    background-color: #2F74A9 !important;
 }
  
  
@@ -218,6 +244,16 @@ div.carousel-textbox {
     background-size: cover;
 }
 
+#top-title-bar h1, #top-title-bar p {
+    background-color: rgba(0,0,0,0.5) !important;
+    /* display: block-inline !important; */
+    
+}
+
+#top-title-bar h1 {
+    margin-bottom: 0;
+}
+
 #top-title-bar.chi-siamo {
     background-image: url("../images/stud_happy.jpeg");
 }
@@ -233,3 +269,4 @@ div.carousel-textbox {
 #top-title-bar.ubi {
     background-image: url("../images/carousel/adm.jpg");
 }
+
