@@ -56,9 +56,9 @@ Ogni pagina presenterà un footer con:
 * Info "azienda"
 
 #### Navigazione
-* Il sito dovra` prevedere una struttura di navigazione globale, accessibile da ogni pagina, dalla quale siano sempre raggiungibili le pagine di primo livello corrispondenti alle diverse sezioni del sito, e una navigazione locale, che permetta la navigazione all’interno di ogni singola sezione;
+* Il sito dovrà prevedere una struttura di navigazione globale, accessibile da ogni pagina, dalla quale siano sempre raggiungibili le pagine di primo livello corrispondenti alle diverse sezioni del sito, e una navigazione locale, che permetta la navigazione all’interno di ogni singola sezione;
 * Navigazione globale e navigazione locale dovranno sempre essere nella stessa posizione in tutte le pagine;
-* La navigazione globale dovra` essere disposta orizzontalmente (e in un burger menu in caso di dispositivi con schermo di piccole dimensioni).
+* La navigazione globale dovrà essere disposta orizzontalmente (e in un burger menu in caso di dispositivi con schermo di piccole dimensioni).
 
 ### Requisiti di comunicazione
 
@@ -75,7 +75,7 @@ Il sito deve rispettare le specifiche del Responsive Web Design ed è sviluppato
 * Tablet portrait: >= 768px;
 * Desktop: >= 1224px.
 
-Si terra` conto di tali breakpoint sia per le immagini che per eventuali video (tutti fluidi). Nella fattispecie, questi ultimi saranno in formato YouTube-embedded per minimizzare i tempi di risposta del server host.
+Si terrà conto di tali breakpoint sia per le immagini che per eventuali video (tutti fluidi). Nella fattispecie, questi ultimi saranno in formato YouTube-embedded per minimizzare i tempi di risposta del server host.
 
 Per quanto concerne la palette di colori utilizzata per il sito, il team utilizzerà un set di colori coerente con quello della suite ErasmusTrip e con quello del logo scelto.
 
@@ -85,7 +85,8 @@ Tutti e soli gli utenti target del sito che si vuole progettare, almeno in conco
 
 #### Requisiti di contenuto
 
-???
+* Headline: _I'll shape your Erasmus experience!_
+* Sub-headline: _Quando vai in Erasmus, hai un compagno su cui contare_
 
 ### Requisiti di Accessibilità
 
