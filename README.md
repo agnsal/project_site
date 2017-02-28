@@ -6,7 +6,7 @@ Il team vuole sviluppare un sito vetrina responsive per il progetto ErasmusTrip,
 
 ### Obiettivi generali del nuovo sito
 
-Questo nuovo sito ha molteplici scopi:
+Questo sito ha molteplici scopi:
 * Far conoscere l’app ErasmusTrip, ipotizzando che si stia apprestando ad entrare in commercio, nonché promuovere la sua diffusione;
 * Fornire informazioni utili agli utenti riguardo tale sistema;
 * Convincere gli utenti che entrano nel sito ad effettuare il download e l’installazione della suite sul proprio smartphone.
@@ -58,15 +58,15 @@ Ogni pagina presenterà un footer con:
 #### Navigazione
 * Il sito dovra` prevedere una struttura di navigazione globale, accessibile da ogni pagina, dalla quale siano sempre raggiungibili le pagine di primo livello corrispondenti alle diverse sezioni del sito, e una navigazione locale, che permetta la navigazione all’interno di ogni singola sezione;
 * Navigazione globale e navigazione locale dovranno sempre essere nella stessa posizione in tutte le pagine;
-* La navigazione globale dovra` essere disposta orizzontalmente (e in un burger menu in caso di dispositivi "small").
+* La navigazione globale dovra` essere disposta orizzontalmente (e in un burger menu in caso di dispositivi con schermo di piccole dimensioni).
 
 ### Requisiti di comunicazione
 
 #### Identità di marca, tono e stile della comunicazione
-Il sito presenterà il logo del sistema, costituito da un puzzle colorato su cui è presente il nome del sistema: si è voluto stressare il parallelismo tra i pezzi che si giustappongono e le mini*app che costituiranno la suite ErasmusTrip, perfettamente integrata.
+Il sito presenterà il logo del sistema, costituito da un puzzle colorato affiancato dal nome del sistema: si è voluto stressare il parallelismo tra i pezzi che si giustappongono e le mini app che costituiranno la suite ErasmusTrip, perfettamente integrata.
 
-Verrà riutilizzato il motto che il team ha imposto all’intero progetto, ossia ”I’ll shape your Erasmus experience”. Verrà inserito all’interno della Homepage del sito, essendo questo lo slogan a cui gli utenti dovranno immediatamente associare l’idea di Erasmus (il team ha intenzione di puntare ud una di↵usione capillare per il sistema, essendo unico nel suo genere).
-Il fatto che l’utenza è costituita esclusivamente da studenti, quindi persone giovani, e che statisticamente l’utenza è poco disposta a prestare grande attenzione alla lettura di testi lunghi e/o ampollosi, sarà utilizzato uno stile di comunicazione leggero, asciutto e di facile comprensione. Per quanto riguarda lo stile ed il tono della comunicazione, il team prenderà ad esempio il sito della Apple.
+Verrà riutilizzato il motto che il team ha imposto all’intero progetto, ossia ”I’ll shape your Erasmus experience”. Esso verrà inserito all’interno della Homepage del sito, essendo questo lo slogan a cui gli utenti dovranno immediatamente associare l’idea di Erasmus (il team ha intenzione di puntare ud una diffusione capillare per il sistema, essendo unico nel suo genere).
+Il fatto che l’utenza è costituita esclusivamente da studenti, quindi persone giovani, e che statisticamente l’utenza è poco disposta a prestare grande attenzione alla lettura di testi lunghi e/o ampollosi, sarà utilizzato uno stile di comunicazione leggero, asciutto e di facile comprensione. Per quanto riguarda lo stile ed il tono della comunicazione, il team prenderà come esempio il sito della Apple.
 
 #### Grafica e multimedialità
 Il sito deve rispettare le specifiche del Responsive Web Design ed è sviluppato tenendo conto delle diverse dimensioni e risoluzioni degli schermi dei dispositivi fissi e mobile; in particolare, ad ogni dispositivo sarà associato il corrispettivo breakpoint:
@@ -81,7 +81,7 @@ Per quanto concerne la palette di colori utilizzata per il sito, il team utilizz
 
 #### Lingua e localizzazione
 
-Tutti e soli gli utenti target del sito che si vuole progettare, almeno in concomitanza con la prima versione di ErasmusTrip, saranno studenti italiani. Tuttavia, essendo l’inglese la lingua principalmente utilizzata nei contesti extranazionale, il team non trover`a vincoli ad utilizzarla nel sito (per quanto in minima parte).
+Tutti e soli gli utenti target del sito che si vuole progettare, almeno in concomitanza con la prima versione di ErasmusTrip, saranno studenti italiani. Tuttavia, essendo l’inglese la lingua principalmente utilizzata nei contesti internazionali, il team non si impone vincoli nell'utilizzarla nel sito (per quanto in minima parte).
 
 #### Requisiti di contenuto
 
@@ -91,16 +91,16 @@ Tutti e soli gli utenti target del sito che si vuole progettare, almeno in conco
 
 #### Prestazioni
 
-Per motivi legati alla Search Engine Optimization, sarà necessario minimizzare il ”peso” delle pagine, in particolare la Homepage. In particolare si presterà attenzione a:
-* le immagini devono essere opportunamente compresse in modalità lossless per non perdere in qualità (preferibilmente JPEG e PGN);
-* i video saranno Youtube*embedded, per favorire il caricamento asincrono degli stessi.
+Per motivi legati alla Search Engine Optimization, sarà necessario minimizzare il ”peso” delle pagine, in particolare la Homepage. Nel dettaglio:
+* Le immagini devono essere opportunamente compresse in modalità lossless per non perdere in qualità (preferibilmente JPEG e PGN);
+* Gli eventuali video saranno Youtube embedded, per favorire il caricamento asincrono degli stessi.
 
 #### Reperibilità
 
 Il nome scelto per il dominio è  _www.erasmustrip.com_. Tenendo conto della mappa di navigazione del sito saranno stabiliti i seguenti path:
-* per la pagina ”Le mini App”: /apps/
-* per la singola pagina di ogni mini app: /apps/ < nomeapp > • per la pagina ”Dicono di noi”: /opinions/
-* per la pagina ”Contatti”: /contacts/
+* Per la pagina ”Le mini App”: /apps/
+* Per la singola pagina di ogni mini app: /apps/ < nomeapp > • per la pagina ”Dicono di noi”: /opinions/
+* Per la pagina ”Contatti”: /contacts/
 
 Puntiamo ad un alto ranking nelle SERP dei motori di ricerca Google, Yahoo e Bing, mediante l’ottimizzazione SEO. In particolare si utilizzeranno le seguenti parole chiave:
 
