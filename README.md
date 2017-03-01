@@ -85,9 +85,14 @@ Tutti e soli gli utenti target del sito che si vuole progettare, almeno in conco
 
 #### Requisiti di contenuto
 
-* Headline: _I'll shape your Erasmus experience!_
-* Sub-headline: _Quando vai in Erasmus, hai un compagno su cui contare_
-
+* **Home**: contiene la headline e la tagline del sistema, immagini coerenti con il sistema stesso accompagnate da slogan e da alcuni dei migliori commenti degli utenti di ErasmusTrip. Presenta il collegamento al download del sistema
+    * Headline: _I'll shape your Erasmus experience!_
+    * Sub-headline: _Quando vai in Erasmus, hai un compagno su cui contare_
+* **Chi siamo**: contiene le foto dei membri del team e dati, il loro ruolo e i link ai social media;
+* **Dicono di noi**: contiene le testimonianze e commenti più rilevanti degli utenti dell’app (nella forma foto dell’utente, nome completo dell’utente e breve testimonianza testuale);
+* **Le nostre app**: contiene una breve descrizione di tutte le mini app che compongono ErasmusTrip. È corredato da informazioni aggiuntive quali un’indicazione del main purpose del sistema, nonché da immagini delle stesse componenti ed alcuni slogan sulla mini app
+    * _Ubi - Dove vado?_: contiene una descrizione estesa della mini app Ubi (che permette di trovare un’università estera per l’esperienza Erasmus, nonché un alloggio in loco), corredata da alcune immagini illustrative delle view;
+    * _Eventa - A cosa partecipo?_: Contiene una descrizione estesa della mini app Eventa (che permette di trovare attività ed eventi nella città dell’Erasmus tenendo conto degli interessi dell’utente), corredata da alcune immagini illustrative delle view.
 ### Requisiti di Accessibilità
 
 #### Prestazioni
@@ -98,7 +103,7 @@ Per motivi legati alla Search Engine Optimization, sarà necessario minimizzare 
 
 #### Reperibilità
 
-Il nome scelto per il dominio è  _www.erasmustrip.example_. Tenendo conto della mappa di navigazione del sito saranno stabiliti i seguenti path:
+Il nome scelto per il dominio è _www.erasmustrip.example_. Tenendo conto della mappa di navigazione del sito saranno stabiliti i seguenti path:
 * Per la pagina ”Le mini App”: /apps/
 * Per la singola pagina di ogni mini app: /apps/ < nomeapp > • per la pagina ”Dicono di noi”: /opinions/
 * Per la pagina ”Contatti”: /contacts/
