@@ -137,6 +137,11 @@ ul.dropdown-menu {
     background-color: #e6f2f9 !important;
 }
 
+.nav-item[aria-expanded="true"]{
+    color: #337ab7 !important;
+    background-color: #E6F2F9 !important;
+}
+
 /* pannello utenti*/
 
 div.panel {
@@ -299,4 +304,3 @@ div.carousel-textbox {
 .container.container-bottom-spaced {
     margin-bottom: 2em;
 }
-
