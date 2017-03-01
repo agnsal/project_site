@@ -93,6 +93,8 @@ Tutti e soli gli utenti target del sito che si vuole progettare, almeno in conco
 * **Le nostre app**: contiene una breve descrizione di tutte le mini app che compongono ErasmusTrip. È corredato da informazioni aggiuntive quali un’indicazione del main purpose del sistema, nonché da immagini delle stesse componenti ed alcuni slogan sulla mini app
     * _Ubi - Dove vado?_: contiene una descrizione estesa della mini app Ubi (che permette di trovare un’università estera per l’esperienza Erasmus, nonché un alloggio in loco), corredata da alcune immagini illustrative delle view;
     * _Eventa - A cosa partecipo?_: Contiene una descrizione estesa della mini app Eventa (che permette di trovare attività ed eventi nella città dell’Erasmus tenendo conto degli interessi dell’utente), corredata da alcune immagini illustrative delle view.
+* **Sitemap**
+
 ### Requisiti di Accessibilità
 
 #### Prestazioni
