@@ -200,6 +200,7 @@ div.panel-person {
     width: 160px;
     padding: 5px;
     margin-bottom: 1em;
+    margin-right: 5px; 
     border: none;
     background-color: #cccccc;
     color: #000;
@@ -214,6 +215,7 @@ div.panel-person {
     background-color: #2F74A9 !important;
     font-weight: bold !important;
     border-color: #2f74a9 !important;
+    margin-left: 0px !important;
 }
 .footer button:hover {
     background-color: #5383d3 !important;
