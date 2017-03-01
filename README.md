@@ -86,8 +86,13 @@ Tutti e soli gli utenti target del sito che si vuole progettare, almeno in conco
 #### Requisiti di contenuto
 
 * **Home**: contiene la headline e la tagline del sistema, immagini coerenti con il sistema stesso accompagnate da slogan e da alcuni dei migliori commenti degli utenti di ErasmusTrip. Presenta il collegamento al download del sistema
-    * Headline: _I'll shape your Erasmus experience!_
-    * Sub-headline: _Quando vai in Erasmus, hai un compagno su cui contare_
+    * _Headline_: _I'll shape your Erasmus experience!_;
+    * _Sub-headline_: _Quando vai in Erasmus, hai un compagno su cui contare_;
+    * _Offerta_: Erasmustrip ti aiuta a scegliere la destinazione e i corsi, organizzare il viaggio, trovare un alloggio, pianificare lo studio ed il tempo libero, vendere e acquistare oggetti nella città da te scelta. Inizia ora ad organizzare il tuo viaggio Erasmus con ErasmusTrip!;
+    * _Call-to-Action_:
+        * [Download] Entra a far parte del nostro fantastico mondo!
+        * [Subcribe to Newletter] Registrati alla nostra Newsletter e rimani in contatto!
+    
 * **Chi siamo**: contiene le foto dei membri del team e dati, il loro ruolo e i link ai social media;
 * **Dicono di noi**: contiene le testimonianze e commenti più rilevanti degli utenti dell’app (nella forma foto dell’utente, nome completo dell’utente e breve testimonianza testuale);
 * **Le nostre app**: contiene una breve descrizione di tutte le mini app che compongono ErasmusTrip. È corredato da informazioni aggiuntive quali un’indicazione del main purpose del sistema, nonché da immagini delle stesse componenti ed alcuni slogan sulla mini app
