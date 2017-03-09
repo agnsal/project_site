@@ -278,14 +278,17 @@ div.carousel-textbox {
     background-size: cover;
 }
 
-#top-title-bar h1, #top-title-bar p {
+#top-title-bar h1, #top-title-bar h4 {
     background-color: rgba(0,0,0,0.5) !important;
     /* display: block-inline !important; */
     
 }
 
-#top-title-bar h1 {
+#top-title-bar h1{
     margin-bottom: 0;
+}
+#top-title-bar h4 {
+    margin-top: 0;
 }
 
 #top-title-bar.chi-siamo {
