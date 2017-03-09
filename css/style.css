@@ -149,6 +149,10 @@ div.panel {
     padding: 1em !important;
 }
 
+div.panel.narrow-panel {
+    margin: 0;
+}
+
 img.box-adapt {
     margin-top: 2em !important;
     border: 2px #919191 solid;
@@ -278,15 +282,11 @@ div.carousel-textbox {
     background-size: cover;
 }
 
-#top-title-bar h1, #top-title-bar h4 {
+#top-title-bar h1, #top-title-bar h4, #top-title-bar p {
     background-color: rgba(0,0,0,0.5) !important;
-    /* display: block-inline !important; */
     
 }
 
-#top-title-bar h1{
-    margin-bottom: 0;
-}
 #top-title-bar h4 {
     margin-top: 0;
 }
