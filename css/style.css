@@ -175,6 +175,10 @@ div.panel-person {
     width: 100%;
 }
 
+span.call-to-action-icon-download {
+    font-size: 0.9em !important;
+}
+
 
 /*FOOTER*/
 
@@ -312,7 +316,16 @@ div.carousel-textbox {
     background-image: url("../images/carousel/adm.jpg");
 }
 
+#news-form {
+    margin-bottom: 1em;
+}
+
 /* containers */
 .container.container-bottom-spaced {
     margin-bottom: 2em;
+}
+
+/* immagini homepage */
+img.img-home-app {
+    margin-bottom: 1em;
 }
