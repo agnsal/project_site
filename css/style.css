@@ -168,10 +168,11 @@ div.panel-person {
 }
 
 /* call to action */
-#download-call-btn {
-    font-size: 3em;
+.download-call-btn {
+    font-size: 2em;
     font-weight: bold;
     background-color: #2f74a9 !important;
+    width: 100%;
 }
 
 
@@ -285,6 +286,10 @@ div.carousel-textbox {
 #top-title-bar h1, #top-title-bar h4, #top-title-bar p {
     background-color: rgba(0,0,0,0.5) !important;
     
+}
+
+#top-title-bar h1 {
+    padding: 0.1em !important;
 }
 
 #top-title-bar h4 {
