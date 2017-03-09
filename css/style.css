@@ -13,7 +13,8 @@ body{
 	margin: 0 !important;
 }
 
-#primo:hover, #secondo:hover, #terzo:hover{
+
+#primo:hover, #secondo:hover, #terzo:hover, #scaricami:hover{
     color: #2F74A9 !important;
     background-color: #E6F2F9 !important;
 }
