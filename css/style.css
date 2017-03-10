@@ -14,10 +14,12 @@ body{
 }
 
 
-#primo:hover, #secondo:hover, #terzo:hover, #scaricami:hover{
+#primo:hover, #secondo:hover, #terzo:hover, #scaricami:hover, .dropdown-item-topbar:hover{
     color: #2F74A9 !important;
     background-color: #E6F2F9 !important;
 }
+
+
 
 /* gestione immagini topbar */
 .separate-bottom {
@@ -328,4 +330,12 @@ div.carousel-textbox {
 /* immagini homepage */
 img.img-home-app {
     margin-bottom: 1em;
+}
+
+/* immagini download */
+img.img-download {
+    width: 35em;
+    height: 7em;
+
+    margin-bottom: 1.5em;
 }
