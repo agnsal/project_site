@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-feb-2017, 12.23.51
+    Author     : Carlo
+*/
+
+
+/*TEAM*/
+
+.team{
+    padding:  0 0 80px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.team b,
+.team h2,
+.team h4{
+    margin: 20px 0 20px;
+    color: #4c4c4c;
+}
+
+.team p{
+    color: #737373;
+}
+
+.team img{
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+.team i{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #4c4c4c;
+}
+
+.team a:hover i{
+    background-color: grey;
+    color: white;
+}

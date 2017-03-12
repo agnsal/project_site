@@ -1,0 +1,341 @@
+/*
+colore1 #509FE1
+colore2 #C4CFD5
+colore3 #2F74A9
+colore4 #E6F2F9
+*/
+
+body{
+	padding: 0 !important;
+	
+}
+.close-navbar{
+	margin: 0 !important;
+}
+
+
+#primo:hover, #secondo:hover, #terzo:hover, #scaricami:hover, .dropdown-item-topbar:hover{
+    color: #2F74A9 !important;
+    background-color: #E6F2F9 !important;
+}
+
+
+
+/* gestione immagini topbar */
+.separate-bottom {
+
+    margin-bottom: 2em;
+}
+ #logoicon{
+     height: 50px;
+     width: 50px;
+     margin: 0;
+     padding: 0;
+     background-color: transparent;
+ }
+
+h1.bigtitle {font-size:3em;font-weight:normal;}
+
+#tendina-nav:focus{ /*TO DO*/
+    background-color: #E6F2F9 !important; 
+}
+
+/* link interni */
+a.app-link {
+    color: #5a5a5a;
+}
+
+/* titolo homepage */
+.homepage-title-text {
+    margin-top: 0;
+}
+
+
+/*Gestione del carousello :P */
+
+#myCarousel {
+    margin-bottom: 2em;
+}
+
+.first-slide, .second-slide, .third-slide{
+    object-fit: cover;
+}
+
+/* immagine preview mini app */
+img.img-view {
+
+    height: 35em !important;
+
+}
+
+img.top-image {
+    margin-bottom: 4em !important;
+}
+
+/*
+iframe{
+    height: 36vw;
+    width: 64vw;
+    margin-left: 18vw;
+
+}
+*/
+
+#video-app {
+    width: 100vw;
+    height: 56.25vw;
+}
+
+/*
+colore1 #509FE1
+colore2 #C4CFD5
+colore3 #2F74A9
+colore4 #E6F2F9
+*/
+
+
+/* colori navbar */
+.navbar {
+    background-color: #2F74A9 !important;
+    border: 0 !important;
+}
+
+.active-navbar {
+    color: #2F74A9 !important;
+    background-color: #E6F2F9 !important;
+}
+
+.nav-item {
+    color: #ffffff !important;
+}
+
+.drop-nav-item {
+    color: #2f74a9 !important;
+}
+
+a.active-drop {
+    background-color: #2f74a9 !important;
+    color: #ffffff !important;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bolder;
+}
+
+.navbar-toggle {
+    background: #fff;
+}
+
+.active-btn, .active {
+    color: #2f74a9 !important;
+    background-color: #E6F2F9 !important;
+}
+
+.text-blue {
+    color: #2f74a9 !important;
+}
+
+ul.dropdown-menu {
+    background-color: #e6f2f9 !important;
+}
+
+.nav-item[aria-expanded="true"]{
+    color: #337ab7 !important;
+    background-color: #E6F2F9 !important;
+}
+
+/* pannello utenti*/
+
+div.panel {
+    padding: 1em !important;
+}
+
+div.panel.narrow-panel {
+    margin: 0;
+}
+
+img.box-adapt {
+    margin-top: 2em !important;
+    border: 2px #919191 solid;
+    /*box-shadow: 1px 5px 5px #000;*/
+}
+
+div.panel-person {
+    padding-bottom: 2em !important;
+    /*border: none !important;*/
+    /*border-color: #919191;*/
+    /*box-shadow: 1px 1px 1px #2F74A9;*/
+    background-color: #f1f1f1 !important;
+}
+
+/* call to action */
+.download-call-btn {
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #2f74a9 !important;
+    width: 100%;
+}
+
+span.call-to-action-icon-download {
+    font-size: 0.9em !important;
+}
+
+
+/*FOOTER*/
+
+.footer{
+    padding: 30px;
+    margin-top: 10em;
+    color: #cccccc;
+    background-color: #222222; /*same of navbar as usually*/
+}
+
+.footer .social i{
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc; /* Same color of icons themselves */
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.footer .social i:hover{
+    background-color: white;
+    color: #222222;
+}
+
+.footer input {
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    margin-bottom: 1em;
+    margin-right: 5px; 
+    border: none;
+    background-color: #cccccc;
+    color: #000;
+}
+
+
+.footer .btn{
+    padding: 10px 5px 10px;
+    margin: -3px 0 0 5px;
+}
+
+.footer button {
+    background-color: #2F74A9 !important;
+    font-weight: bold !important;
+    border-color: #2f74a9 !important;
+    margin-left: 0px !important;
+}
+.footer button:hover {
+    background-color: #5383d3 !important;
+}
+ 
+ 
+div.narrow-carousel {
+    margin-bottom: 2em;
+}
+
+
+/* separatori */
+
+.featurette-divider {
+    color: #2f74a9 !important;
+    background-color: #2f74a9 !important;
+}
+
+.featurette-divider.devider-narrow {
+
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+/*captions*/
+h1.wow {
+    font-size: 5em !important;
+}
+
+footer a {
+
+    color: #cccccc;
+
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* carousel *
+ */
+
+div.carousel-textbox {
+    padding: 1em;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+#top-title-bar {
+    width: 100%;
+    /*background-image: url("../images/stud_happy.jpeg");*/
+    color: #ffffff;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#top-title-bar h1, #top-title-bar h4, #top-title-bar p {
+    background-color: rgba(0,0,0,0.5) !important;
+    
+}
+
+#top-title-bar h1 {
+    padding: 0.1em !important;
+}
+
+#top-title-bar h4 {
+    margin-top: 0;
+}
+
+#top-title-bar.chi-siamo {
+    background-image: url("../images/stud_happy.jpeg");
+}
+
+#top-title-bar.dicono-di-noi {
+    background-image: url("../images/carousel/stud.jpg");
+}
+
+#top-title-bar.suite {
+    background-image: url("../images/carousel/Students.jpg");
+}
+
+#top-title-bar.ubi {
+    background-image: url("../images/carousel/adm.jpg");
+}
+
+#news-form {
+    margin-bottom: 1em;
+}
+
+/* containers */
+.container.container-bottom-spaced {
+    margin-bottom: 2em;
+}
+
+/* immagini homepage */
+img.img-home-app {
+    margin-bottom: 1em;
+}
+
+/* immagini download */
+img.img-download {
+    width: 35em;
+    height: 7em;
+
+    margin-bottom: 1.5em;
+}
